@@ -34,8 +34,8 @@ const Solutions = () => {
                     <div className="col-md-4 p-3">
                         <div className="card border-0 solution__card h-100 pb-2 p-3 mx-3">
                             <div className="card-img-top ">
-                                <div className="solution__card--circle p-3 m-3">
-                                <img src="/image/Vector.png" alt="" className="img-fluid"/>
+                                <div className=" p-3 m-3">
+                                <img src="/image/maize.png" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                             <div className="card-body h-100">

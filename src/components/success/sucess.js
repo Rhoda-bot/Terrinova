@@ -5,7 +5,8 @@ const Success = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-5 p-3">
-                        <div className="row">
+                        <img src="/image/sdg.png" className="img-fluid"/>
+                        {/* <div className="row">
                             <div className="col-md-6">
                                 <div className="row">
                                     <img src="/image/pan-boy.png" className="img-fluid px-3 mx-3 mt-2" alt=""/>
@@ -26,7 +27,7 @@ const Success = () => {
                                     <div className="row">
                                         <img src="/image/dad-child.png" className="img-fluid px-3 mt-3 mx-3" alt=""/>
                                     </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-md-6 text-start py-5 m-3 px-3">
@@ -47,7 +48,7 @@ const Success = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        {/* </div> */}
         </>
     )
 }

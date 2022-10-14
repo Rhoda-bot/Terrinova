@@ -17,7 +17,7 @@ const Products = () =>{
                         <div className="card border-0 mx-auto h-100 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
-                                <img src="/image/flour1.png" alt="" className="img-fluid"/>
+                                <img src="/image/maize.png" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                             <div className="card-body">
@@ -29,7 +29,7 @@ const Products = () =>{
                         <div className="card border-0 h-100 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
-                                <img src="/image/flour2.png" alt="" className="img-fluid"/>
+                                <img src="/image/cassava.png" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                             <div className="card-body">
@@ -41,7 +41,7 @@ const Products = () =>{
                         <div className="card border-0 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
-                                <img src="/image/Vector.png" alt="" className="img-fluid"/>
+                                <img src="/image/grains.png" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                             <div className="card-body">

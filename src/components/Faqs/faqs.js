@@ -5,7 +5,7 @@ const Faqs = () => {
             <div className="container py-5">
                 <div className="row justify-content-center">
                     <div className="faqs--title pb-5">Frequently Asked Questions</div>
-                    <div className="col-md-10">
+                    <div className="col-md-10 p-3">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">

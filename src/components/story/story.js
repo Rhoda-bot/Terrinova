@@ -22,8 +22,11 @@ const Story = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="row">
-                                <div className="col-md-6 story__img--one card border-0 h-100">
-                                    <img src="/image/story-man.png" alt="images" className="img-fluid"/>
+                                <div className="col-md-6 story__img card border-0 h-100">
+                                    <div className="story__img--overlay">
+                                    <img src="/image/story-man.png" alt="images" className="img-fluid" />
+
+                                    </div>
                                 </div>
                                 <div className="col-md-6 story__img--two card border-0 h-100">
                                     <img src="/image/story-woman.png" alt="imagess" className="img-fluid"/>

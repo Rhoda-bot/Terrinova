@@ -6,13 +6,16 @@ const Header = () => {
                     <div className="row py-5 text-center justify-content-center">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            <span>Our Story</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <span>Our Products</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <img src="/image/favicon.png" />
+                        </li>
+                        <li class="nav-item">
+                        <span>Our Team</span>
                         </li>
                     </ul>
                         <h1 className="header--title py-5 ">

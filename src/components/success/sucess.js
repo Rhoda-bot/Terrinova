@@ -4,33 +4,10 @@ const Success = () => {
         <div className="sucess py-5">
             <div className="container py-5">
                 <div className="row">
-                    <div className="col-md-5 p-3">
-                        <img src="/image/sdg.png" className="img-fluid"/>
-                        {/* <div className="row">
-                            <div className="col-md-6">
-                                <div className="row">
-                                    <img src="/image/pan-boy.png" className="img-fluid px-3 mx-3 mt-2" alt=""/>
-                                </div>
-                                    <div className="row">
-                                        <div className="col-md-5"></div>
-                                        <div className="col-md-7 p-3 px-3">
-                                        <img src="/image/farmer.png" className="img-fluid p-2 text-end" alt=""/>
-                                        </div>
-                                    </div>
-                            </div>
-                            <div className="col-6">
-                                <div className="row">
-                                   <div className="col-md-9">
-                                   <img src="/image/hedge.png" className="img-fluid px-2" alt=""/>
-                                   </div>
-                                </div>
-                                    <div className="row">
-                                        <img src="/image/dad-child.png" className="img-fluid px-3 mt-3 mx-3" alt=""/>
-                                    </div>
-                            </div> */}
-                        </div>
+                    <div className="col-md-6">
+                        <img src="/image/sdg.png" className="img-fluid"/> 
                     </div>
-                    <div className="col-md-6 text-start py-5 m-3 px-3">
+                    <div className="col-md-6 text-start py-5 px-3">
                     <div className="success--title">
                     What good would it make in the world if we succeed?
                     </div>
@@ -48,7 +25,7 @@ const Success = () => {
                     </div>
                 </div>
             </div>
-        {/* </div> */}
+        </div>
         </>
     )
 }

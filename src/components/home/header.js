@@ -1,20 +1,23 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <>
             <div className="header">
                 <div className="container">
                     <div className="row py-5 text-center justify-content-center">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <span>Our Story</span>
+                    <ul className="nav justify-content-center">
+                        <li className="nav-item">
+                            <a href="#our-story">Our Story</a>
+                            {/* <Link to="/our-story">Our Story</Link> */}
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                         <span>Our Products</span>
                         </li>
-                        <li class="nav-item">
-                        <img src="/image/favicon.png" />
+                        <li className="nav-item">
+                        <img src="/image/favicon.png" alt=""/>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                         <span>Our Team</span>
                         </li>
                     </ul>

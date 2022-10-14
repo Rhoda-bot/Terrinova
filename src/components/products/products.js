@@ -13,7 +13,10 @@ const Products = () =>{
                             Biofortified cassava and maize flours and grains. 
                         </p>
                     </div>
-                    <div className="col-md-3 text-center justify-content-center">
+                    <div className="col-md-1"></div>
+                   <div className="col-md-8 justify-content-end">
+                        <div className="row">
+                        <div className="col-md-4 text-center justify-content-center">
                         <div className="card border-0 mx-auto h-100 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
@@ -25,7 +28,7 @@ const Products = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center justify-content-center">
+                    <div className="col-md-4 text-center justify-content-center">
                         <div className="card border-0 h-100 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
@@ -37,7 +40,7 @@ const Products = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center justify-content-center">
+                    <div className="col-md-4 text-center justify-content-center">
                         <div className="card border-0 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
@@ -49,6 +52,9 @@ const Products = () =>{
                             </div>
                         </div>
                     </div>
+                        </div>
+                   </div>
+                   <div c></div>
                 </div>
             </div>
         </div>

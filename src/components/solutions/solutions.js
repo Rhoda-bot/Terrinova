@@ -15,7 +15,7 @@ const Solutions = () => {
                         <div className="card border-0 solution__card h-100 pb-2 px-3 mx-3 ">
                         `     <div className="card-img-top ">
                                 <div className="solution__card--circle p-3 m-3">
-                                <img src="/image/Vector.png" alt="" className="img-fluid"/>
+                                <img src="/image/grains.png" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                             <div className="card-body h-100">

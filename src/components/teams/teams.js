@@ -4,7 +4,7 @@ const Teams = () =>{
         <div className="teams py-5">
             <div className="container py-5">
                 <div className="row">
-                    <h3 className="teams--title">Our Team</h3>
+                    <h3 className="teams--title pb-5">Our Team</h3>
                     <div className="col-md-6">
                     <div className="card mb-3 text-start border-0 teams__card ">
                         <div className="row g-0">

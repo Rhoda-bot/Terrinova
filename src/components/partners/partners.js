@@ -6,10 +6,10 @@ const Partners = () =>{
                 <div className="row mx-auto align-items-center justify-content-center">
                     <div className="partners--title pb-4">Our Principal Partners</div>
                         <div className="col-md-4 ">
-                            <img src="/image/afrilab.png" className="img-fluid" alt=""/>
+                            <img src="/image/afrilab.png" className="img-fluid p-4" alt=""/>
                         </div>
                         <div className="col-md-4 ">
-                            <img src="/image/elab_.png" className="img-fluid" alt=""/>
+                            <img src="/image/elab_.png" className="img-fluid p-4" alt=""/>
                         </div>  
                 </div>
                 <div className="row mx-auto justify-content-center mt-3 pt-4">

@@ -4,9 +4,10 @@ const Success = () => {
         <div className="sucess py-5">
             <div className="container py-5">
                 <div className="row">
-                    <div className="col-md-6">
-                        <img src="/image/sdg.png" className="img-fluid"/> 
+                    <div className="col-md-5">
+                        <img src="/image/sdg.png" alt="" className="img-fluid"/> 
                     </div>
+                    <div className="col-md-1"></div>
                     <div className="col-md-6 text-start py-5 px-3">
                     <div className="success--title">
                     What good would it make in the world if we succeed?

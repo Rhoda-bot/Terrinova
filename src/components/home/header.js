@@ -9,7 +9,10 @@ const Header = () => {
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
                             <a href="#our-story">Our Story</a>
-                            {/* <Link to="/our-story">Our Story</Link> */}
+                            {/* <Link to={{
+                                pathname: "/",
+                                hash: "#our-story"
+                            }}>Our Story</Link> */}
                         </li>
                         <li className="nav-item">
                         <span>Our Products</span>

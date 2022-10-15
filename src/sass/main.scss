@@ -1,4 +1,35 @@
 @import './mixins.scss';
+.accordion-item{
+    // background-color: transparent !important;
+    outline: transparent !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: #338212;
+}
+
+.accordion-header, .accordion-button{
+    background: transparent !important;
+    // outline: none !important;
+}
+
+.accordion-button:focus{
+    background: transparent !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #0C350F;
+}
+.accordion-button::after{
+    content: "\2b" !important;
+    background-image: none !important;
+}
+
+.accordion-button.collapsed::after{
+    content: "\F2EA" !important;
+    background-image: none !important;
+
+}
+
 a{
     color: #FFFFFF;
     text-decoration: none;
@@ -40,10 +71,14 @@ a:hover{
         font-size: 20px;
         line-height: 24.2px;
     }
-    &--text{
-        font-size: 18px;
-        color: #0C350F;
-    }
+    // &__img{
+    //     &--overlay{
+    //         height: 329.25px;
+    //         background-image:
+    //         linear-gradient(rgba(12, 53, 15, 0.3)),
+    //         // url('../../public/image/story-man.png');
+    //     }
+    // }
 }
 .solution{
     text-align: start;

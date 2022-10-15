@@ -25,6 +25,10 @@ const Header = () => {
                         {/* <span>Our Team</span> */}
                         <a href="#teams">Teams</a>
                         </li>
+                        <li className="nav-item">
+                        {/* <span>Our Team</span> */}
+                        <a href="#faqs">Faqs</a>
+                        </li>
                     </ul>
                         <h1 className="header--title py-5 ">
                             Profitability & Philanthropy Do Not

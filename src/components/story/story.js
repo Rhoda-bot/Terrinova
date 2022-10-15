@@ -29,8 +29,9 @@ const Story = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 story__img--two card border-0 h-100">
-                                    <img src="/image/story-woman.png" alt="imagess" className="img-fluid"/>
+                                    <img src="/image/story-woman.png" alt="imagess" className="img-fluid mx-2"/>
                                 </div>
+                                <p className="text-center story--text">Abdoul &  Espérance</p>
                             </div>
                         </div>
                     </div>

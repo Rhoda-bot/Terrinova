@@ -1,24 +1,24 @@
 const Faqs = () => {
     return(
         <>
-        <div className="faqs py-5">
+        <div className="faqs py-5" id="faqs">
             <div className="container py-5">
                 <div className="row justify-content-center">
                     <div className="faqs--title pb-5">Frequently Asked Questions</div>
                     <div className="col-md-10 p-3">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div className="p-3 text-start">
-        <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-       <b>What is Terrinova?</b>
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">TERRINOVA GROUP is a modern mill line Agro-Processing company that produces and packages high-quality, ready-for-consumption biofortified cassava and maize flours.</div>
-    </div>
-  </div>
-        </div>
+                      <div className="p-3 text-start">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <b>What is Terrinova?</b>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">TERRINOVA GROUP is a modern mill line Agro-Processing company that produces and packages high-quality, ready-for-consumption biofortified cassava and maize flours.</div>
+                          </div>
+                        </div>
+                      </div>
       <div className="p-3 text-start">
       <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">

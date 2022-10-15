@@ -1,7 +1,7 @@
 const Teams = () =>{
     return(
         <>
-        <div className="teams py-5">
+        <div className="teams py-5" id="teams">
             <div className="container py-5">
                 <div className="row">
                     <h3 className="teams--title pb-5">Our Team</h3>

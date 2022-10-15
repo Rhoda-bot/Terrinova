@@ -1,10 +1,10 @@
 const Story = () => {
     return (
         <>
-            <div className="story py-5">
+            <div className="story py-5" id="story">
                 <div className="container py-5">
                     <div className="row text-start">
-                        <h3 className="story--title">Our Story</h3>
+                        <h3 className="story--title pb-3">OUR STORY</h3>
                         <div className="col-md-6">
                             <p className="story--text">
                             As founders who have spent a large part of our life in Academia,
@@ -21,7 +21,7 @@ const Story = () => {
                             </p>
                         </div>
                         <div className="col-md-6">
-                            <div className="row">
+                            <div className="row g-0">
                                 <div className="col-md-6 story__img card border-0 h-100">
                                     <div className="story__img--overlay">
                                     <img src="/image/story-man.png" alt="images" className="img-fluid" />

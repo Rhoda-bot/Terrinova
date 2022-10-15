@@ -1,7 +1,7 @@
 const Products = () =>{
     return(
         <>
-        <div className="products py-5">
+        <div className="products py-5" id="products">
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-3 text-start">
@@ -16,7 +16,7 @@ const Products = () =>{
                     <div className="col-md-1"></div>
                    <div className="col-md-8 justify-content-end">
                         <div className="row">
-                        <div className="col-md-4 text-center justify-content-center">
+                        <div className="col-md-4 text-center justify-content-center p-2">
                         <div className="card border-0 mx-auto h-100 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
@@ -28,7 +28,7 @@ const Products = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 text-center justify-content-center">
+                    <div className="col-md-4 text-center justify-content-center p-2">
                         <div className="card border-0 h-100 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">
@@ -40,7 +40,7 @@ const Products = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 text-center justify-content-center">
+                    <div className="col-md-4 text-center p-2">
                         <div className="card border-0 products__card">
                             <div className="card-img-top ">
                                 <div className="products__card--circle p-3 m-3">

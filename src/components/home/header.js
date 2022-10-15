@@ -8,20 +8,22 @@ const Header = () => {
                     <div className="row py-5 text-center justify-content-center">
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
-                            <a href="#our-story">Our Story</a>
+                            <a href="#story">Our Story</a>
                             {/* <Link to={{
                                 pathname: "/",
                                 hash: "#our-story"
                             }}>Our Story</Link> */}
                         </li>
                         <li className="nav-item">
-                        <span>Our Products</span>
+                        {/* <span>Our Products</span> */}
+                        <a href="#products">Our Products</a>
                         </li>
                         <li className="nav-item">
-                        <img src="/image/favicon.png" alt=""/>
+                        <img src="/image/favicon.png" alt="" className="header--logo"/>
                         </li>
                         <li className="nav-item">
-                        <span>Our Team</span>
+                        {/* <span>Our Team</span> */}
+                        <a href="#teams">Teams</a>
                         </li>
                     </ul>
                         <h1 className="header--title py-5 ">

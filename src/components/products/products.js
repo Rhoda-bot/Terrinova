@@ -3,7 +3,7 @@ const Products = () =>{
         <>
         <div className="products py-5" id="products">
             <div className="container py-5">
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-3 text-start">
                         <h5 className="products--title pb-2">OUR PRODUCTS</h5>
                             <div className="products--subtitle">

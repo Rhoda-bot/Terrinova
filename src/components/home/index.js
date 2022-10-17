@@ -5,7 +5,7 @@ import Partners from "../partners/partners";
 import Products from "../products/products";
 import OurSolutions from "../solutions";
 import OurStory from "../story";
-import Success from "../success/sucess";
+import Success from "../success/success";
 import Teams from "../teams/teams";
 import Header from "./header"
 

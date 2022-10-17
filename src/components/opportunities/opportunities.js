@@ -3,7 +3,7 @@ const Opportunities = () => {
         <>
         <div className="opportune py-5" id="opportunities">
             <div className="container py-5">
-                <div className="row text-start">
+                <div className="row text-start align-items-center">
                     <div className="col-md-6">
                         <div className="opportune--title mx-4 pb-3">
                         The Opportunities <br/> We See

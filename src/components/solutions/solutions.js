@@ -3,17 +3,19 @@ const Solutions = () => {
         <>
         <div className="solution py-5">
             <div className="container py-5">
-                <div className="row">
-                    <div className="col-md-4 text-start">
-                        <h4 className="solution--title pb-3"> OUR SOLUTION</h4>
-                            <p className="solution--subtitle">
+                <div className="row align-items-center">
+                    <div className="col-md-4 text-start text-md-start">
+                        <h4 className="solution--title pb-3 pb-lg-2"> OUR SOLUTION</h4>
+                            <div className="solution--subtitle pb-5">
                             We Buy From Cooperatives, & Sell To Wholesalers & Industries
-                            </p>
-                            <button className="header--btn mt-3 mt-md-3 pb-md-4">Join our Mission</button>
+                            </div>
+                            <button className="header--btn">Join our Mission</button>
                     </div>
-                    <div className="col-md-4 p-2">
+                   <div className="col-md-8">
+                        <div className="row">
+                        <div className="col-md-6 p-2">
                         <div className="card border-0 solution__card h-100 pb-2 px-3 mx-3 ">
-                        `     <div className="card-img-top ">
+                            <div className="card-img-top ">
                                 <div className="p-3 m-3">
                                 <img src="/image/grains.png" alt="" className="img-fluid"/>
                                 </div>
@@ -31,7 +33,7 @@ const Solutions = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-6 p-2">
                         <div className="card border-0 solution__card h-100 pb-2 p-3 mx-3">
                             <div className="card-img-top ">
                                 <div className=" p-3 m-3">
@@ -53,6 +55,8 @@ const Solutions = () => {
                             </div>
                         </div>
                     </div>
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>

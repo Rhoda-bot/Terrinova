@@ -3,9 +3,9 @@ const Story = () => {
         <>
             <div className="story py-5" id="story">
                 <div className="container py-5">
-                    <div className="row text-start">
+                    <div className="row text-start align-items-center">
                         <h3 className="story--title pb-3">OUR STORY</h3>
-                        <div className="col-md-6">
+                        <div className="col-md-5">
                             <p className="story--text">
                             As founders who have spent a large part of our life in Academia,
                              we got frustrated from seeing viable solutions with great market 
@@ -20,19 +20,19 @@ const Story = () => {
                             in Niger and Benin Republic respectively. 
                             </p>
                         </div>
+                        <div className="col-md-1"></div>
                         <div className="col-md-6">
-                            <div className="row g-0">
-                                <div className="col-md-6 story__img card border-0 h-100">
-                                    <div className="story__img--overlay">
-                                    <img src="/image/story-man.png" alt="images" className="img-fluid" />
-
+                            <div className="row justify-content-evenly">
+                                <div className="col-md-5 m-2">
+                                    <div className="card border-0">
+                                        <img src="/image/abdoul.png" alt="images" className="img-fluid story__img mx-3"  />
                                     </div>
                                 </div>
-                                <div className="col-md-6 story__img--two card border-0 h-100">
-                                    <img src="/image/story-woman.png" alt="imagess" className="img-fluid mx-2"/>
+                                <div className="col-md-5 card border-0 m-2">
+                                    <img src="/image/espérance.png" alt="images" className="img-fluid story__img2 mx-3"  />
                                 </div>
-                                <p className="text-center story--text">Abdoul &  Espérance</p>
                             </div>
+                             <p className="text-center story--subtitle">Abdoul &  Espérance</p>
                         </div>
                     </div>
                 </div>

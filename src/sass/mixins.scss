@@ -6,13 +6,23 @@
         background-color: #338212;
         border: #338212;
         font-weight: 600;
-        padding-left: 0;
-        padding-right: 0;
-        padding: 5px;
+        // padding: 10px;
+        text-align: center;
 }
 @mixin BtnHover {
-    background: transparent;
+    background: #FFFFFF;
     border: 3px solid #338212;
-    transition: 3ms  ease-in-out;
+    transition: 3s  ease-in-out;
     color: #000000;
+}
+@mixin TextSize ($font-weight,$font-size,$line-height) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@media screen and (max-width: 600px) {
+    @mixin Btn {
+        width: 20vw;
+    }
 }

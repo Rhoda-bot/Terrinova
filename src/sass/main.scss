@@ -1,10 +1,21 @@
 @import './mixins.scss';
+ul{
+    list-style-type: disc;
+}
+ul>li:before {
+    display:inline-block;
+    width:1.5em;
+    padding-right:0.5em;
+    font-weight:bold;
+    // text-align:right;
+    // content:counter(item) ".";
+  }
 .accordion-item{
     // background-color: transparent !important;
     outline: transparent !important;
     border-radius: 5px !important;
     border: none !important;
-    color: #338212;
+    color: #000;
 }
 
 .accordion-header, .accordion-button{
@@ -20,12 +31,12 @@
     color: #0C350F;
 }
 .accordion-button::after{
-    content: "\2b" !important;
+    content: "\f056" !important;
     background-image: none !important;
 }
 
 .accordion-button.collapsed::after{
-    content: "\F2EA" !important;
+    content: "\f055" !important;
     background-image: none !important;
 
 }
@@ -42,9 +53,20 @@ a:hover{
     background-image:url('../../public/image/header2.png'), url('../../public/image/header.png');
     height: 100vh;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
     &--logo{
         background-color: #FFFFFF;
     }
+    // &--title{
+    //     @include TextSize (700, 50px, 6262.93px);
+    // }
+    // &--text{
+    //     @include TextSize (400, 20px, 29.05px);
+    // }
     &--title{
         font-weight: 700;
         font-size: 50px;
@@ -64,24 +86,34 @@ a:hover{
     }
 }
 .story{
-    text-align: start;
+    text-align: start; 
+    font-family: 'Inter', sans-serif;
+
     &--title{
         color: #338212;
         font-weight: 600;
         font-size: 20px;
         line-height: 24.2px;
     }
-    // &__img{
-    //     &--overlay{
-    //         height: 329.25px;
-    //         background-image:
-    //         linear-gradient(rgba(12, 53, 15, 0.3)),
-    //         // url('../../public/image/story-man.png');
-    //     }
-    // }
+    &--subtitle{
+        font-weight: 600;
+        font-size: 22px;
+        color: #0C350F;
+    }
+    &__img{
+        transform: rotate(-20deg);
+        box-shadow:0 4px 10px rgba(12, 53, 15, 0.2);
+        outline: none;
+    }
+    &__img2{
+        transform: rotate(20deg);
+        box-shadow:0 4px 10px rgba(12, 53, 15, 0.2); 
+    }
+    
 }
 .solution{
     text-align: start;
+    font-family: 'Inter', sans-serif;
     &--title{
         color: #338212;
         font-weight: 600;
@@ -114,6 +146,7 @@ a:hover{
 }
 .opportune{
     background-color:#f0f7f1;
+    font-family: 'Inter', sans-serif;
     &--title{
         font-weight: 500;
         color: #0C350F;
@@ -124,6 +157,7 @@ a:hover{
     }
 }
 .products{
+    font-family: 'Inter', sans-serif;
     &--title{
         font-weight: 600;
         color: #338212;
@@ -153,6 +187,7 @@ a:hover{
     }
 }
 .partners{
+    font-family: 'Inter', sans-serif;
 &--title{
     font-weight: 500;
     font-size: 44px;
@@ -160,7 +195,8 @@ a:hover{
     color: #0C350F;
 }
 }
-.faqs{  
+.faqs{ 
+    font-family: 'Inter', sans-serif; 
 background-color:#f0f7f1;
 &--title{
     font-weight: 500;
@@ -169,6 +205,7 @@ background-color:#f0f7f1;
 }
 }
 .success{
+    font-family: 'Inter', sans-serif;
     &--title{
         font-weight: 500;
         font-size: 30px;
@@ -181,25 +218,21 @@ background-color:#f0f7f1;
     }
 }
 .teams{
+    font-family: 'Inter', sans-serif;
     &--title{
         font-weight: 500;
         font-size: 44px;
         line-height: 56px;
+        color: #000;
     }
     &__card{
-        // background-color: rgb(255, 255, 255);
         box-shadow: 0px 4px 10px
         rgba(12, 53, 15, 0.15);
         &--title{
             font-size: 20px;
             font-weight: 400;
-            color: #338212;
-        }
-        &--subtitle{
-            color:#0C350F;
         }
         &--span{
-            color: #338212;
             font-weight: 600;
         }
     }
@@ -215,15 +248,16 @@ background-color:#f0f7f1;
  }
 }
 .footer{
+    font-family: 'Inter', sans-serif;
     background-color: #0C350F;
     color: #F5F9F3;
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
     .header{
-        height: 100%;
+        height: 100vh;
         &--title{
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 500;
             line-height: normal;
         }
@@ -251,143 +285,89 @@ background-color:#f0f7f1;
             font-size: 18px;
             color: #0C350F;
         }
-    }
-    .solution{
-        text-align: start;
-        &--title{
-            color: #338212;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 24.2px;
+        &__img{
+            transform: rotate(0deg);
         }
-        &--subtitle{
-            font-weight: 500;
-            font-size: 30px;
-            // line-height: 56px;
-            color: #0C350F;
-        }
-        &__card{
-            box-shadow:0 4px 10px rgba(12, 53, 15, 0.2);
-            border-radius: 10px;
-            &--circle{
-                border-radius: 100%;
-                width: 40%;
-                padding: 20px;
-                margin: 20px;
-                text-align: center;
-                background-color: #52B788;
-            }
-            &--title{
-                font-weight: 700;
-                font-size: 20px;
-                color: #0C350F;
-            }
+        &__img2{
+            transform: rotate(0deg);
         }
     }
-    .opportune{
-        background-color:#f0f7f1;
-        &--title{
-            font-weight: 500;
-            color: #0C350F;
-            font-size: 44px;
-        }
-        &--text{
-            font-size: 18px;
-        }
-    }
-    .products{
-        &--title{
-            font-weight: 600;
-            color: #338212;
-        }
-        &--subtitle{
-            font-weight: 500;
-            font-size: 28px;
-            color: #0C350F;
-        }
-        &--text{
-            font-size: 18px;
+
     
-        }
-        &__card{
-            box-shadow:0 4px 10px rgba(12, 53, 15, 0.2);
-            &--text{
-                font-size: 20px;
-                color: #0C350F;
-                font-weight: 600;
+}
+.wrapper {
+    // background-color: transparent;
+    .banner {
+        // height: 100vh;
+         .nav {
+            display: flex;
+            justify-content: center;
+            padding: 2rem .1rem;
+            &__logo {
+               display: none;
+           }
+           &__menu{
+            &--link{
+                display: inline-block;
+                padding: 0 3rem;
+                font-weight: bold;
+                color: #fff;
             }
+           }
         }
-        &__card:hover{
-            box-sizing: 0 2px 12px rgb(51 51 51 / 20%);
-            transition: 3s ease-in-out;
-            cursor: pointer;
-            background-color: #dff7ec;
+        
+    }
+}
+
+
+
+
+
+/* screen size below 768px mobile */
+@media screen and (max-width: 768px) {
+    .banner {
+        // background-color: red;
+       .nav{
+        .nav__logo{
+            display: block;
+            margin-bottom: 1rem;
         }
+       }
     }
-    .partners{
-    &--title{
-        font-weight: 500;
-        font-size: 44px;
-        line-height: 56px;
-        color: #0C350F;
+
+    .banner .nav__menu {
+        text-align: center;
     }
+
+    .banner .nav__menu .nav__menu--link {
+        margin-bottom: .5rem;
+        padding: 0;
+        padding-right: 1rem;
     }
-    .faqs{  
-    background-color:#f0f7f1;
-    &--title{
-        font-weight: 500;
-        color: #0C350F;
-        font-size: 44px;
-    }
-    }
-    .success{
-        &--title{
-            font-weight: 500;
-            font-size: 30px;
-            color: #0C350F;
-        }
-        &--text{
-            font-size: 18px;
-            font-weight: 300;
-            color: #0C350F;
-        }
+
+    .banner .nav__menu .nav__menu--link:nth-child(3) {
+        display: none;
     }
     .teams{
         &--title{
             font-weight: 500;
-            font-size: 44px;
-            line-height: 56px;
+            font-size: 30px;
+            // line-height: 56px;
+            // color: #000;
         }
         &__card{
-            // background-color: rgb(255, 255, 255);
-            box-shadow: 0px 4px 10px
-            rgba(12, 53, 15, 0.15);
+            // box-shadow: 0px 4px 10px
+            // rgba(12, 53, 15, 0.15);
             &--title{
-                font-size: 20px;
+                font-size: 17px;
                 font-weight: 400;
-                color: #338212;
             }
-            &--subtitle{
-                color:#0C350F;
+            &--text{
+                font-size: 10px;
             }
             &--span{
-                color: #338212;
                 font-weight: 600;
             }
         }
-        &__card:hover{
-            box-sizing: 0 2px 10px rgb(51 51 51 / 20%);
-            transition: 3s ease-in-out;
-            cursor: pointer;
-            filter: grayscale(40%);
-            background-color: #f0f7f3;
-        }
-     &--img{
-        background-image: rgba(12, 53, 15, 0.3);
-     }
-    }
-    .footer{
-        background-color: #0C350F;
-        color: #F5F9F3;
     }
 }

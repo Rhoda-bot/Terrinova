@@ -1,7 +1,7 @@
 const Success = () => {
     return(
         <>
-        <div className="sucess py-5">
+        <div className="success py-5">
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-5">
@@ -9,19 +9,19 @@ const Success = () => {
                     </div>
                     <div className="col-md-1"></div>
                     <div className="col-md-6 text-start py-5 px-3">
-                    <div className="success--title">
+                    <div className="success--title pb-2">
                     What good would it make in the world if we succeed?
                     </div>
-                    <span  className="success--text ">
+                    <span  className="success--text pb-4">
                     Our success would directly impact the following Sustainable Development Goals (SDGs):are.
                     </span>
-                    <p className="pt-2">
+                    <p className="pt-4">
                     <li>Zero Hunger.</li>
                     <li> Good Health and Well-being.</li>
                     <li>Decent Work and Economic Growth.</li>
                     <li>Industry, Innovation and Infrastructu</li>
                     </p>
-                    <button className="header--btn mt-5">Partner with Us</button>
+                    <button className="header--btn mt-4">Partner with Us</button>
 
                     </div>
                 </div>

@@ -57,7 +57,10 @@ a:hover{
     background-size: cover;
     transition: 2s all ease-in-out;
     animation: forwards;
-    align-items: center;
+    &__row{
+        align-items: center;
+        justify-content: center;
+    }
 
     &--logo{
         background-color: #FFFFFF;

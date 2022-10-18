@@ -37,7 +37,6 @@ ul>li:before {
 .accordion-button.collapsed::after{
     content: "\f055" !important;
     background-image: none !important;
-
 }
 
 a{
@@ -48,58 +47,52 @@ a{
 a:hover{
     color: #52B788;
 }
-.header{
+
+.banner {
     background-image:url('../../public/image/header2.png'), url('../../public/image/header.png');
     height: 100vh;
-    color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-    background-repeat: no-repeat;
+    color: #FFFFFF;
     background-size: cover;
-    transition: 2s all ease-in-out;
-    animation: forwards;
-    &__row{
-        margin: 130px;
-        align-items: center;
+    background-repeat: no-repeat;
+    .nav {
+        display: flex;
         justify-content: center;
+        padding: 2rem .1rem;
+        &__logo {
+           display: none;
+       }
+       &__menu{
+        &--link{
+            display: inline-block;
+            padding: 0 2rem;
+            font-weight: bold;
+            color: #fff;
+        }
+       }
     }
 
-    &--logo{
-        background-color: #FFFFFF;
+    &__text {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &--sub{
+            margin-top: 1rem;
+        }
+        &--btn{
+            background-color: #338212;
+            padding: 1rem 3rem;
+            border-radius: 10px;
+            color: #FFFFFF;
+            font-weight: 600;
+            width: 267px;
+        }
+        &--btn:hover{
+            @include BtnHover;
+        }
     }
-    // &--title{
-    //     @include TextSize (700, 50px, 6262.93px);
-    // }
-    // &--text{
-    //     @include TextSize (400, 20px, 29.05px);
-    // }
-    &--title{
-        font-weight: 700;
-        font-size: 50px;
-        line-height: 60px;
-    }
-    &--text{
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 29.05px;
-    }
-    &--btn{
-        @include Btn;
-    }
-    &--btn:hover{
-        @include BtnHover;
-    }
-    &--link{
-        @include Btn;
-        padding: 17px;
-        margin-top: 45px;
-    }
-    &--link:hover{
-       @include BtnHover;
-    }
-    
 }
-   
-    
 
 .story{
     text-align: start; 
@@ -141,6 +134,12 @@ a:hover{
         font-size: 30px;
         // line-height: 56px;
         color: #0C350F;
+    }
+    &--btn{
+        @include Btn;
+    }
+    &--btn:hover{
+        @include BtnHover;
     }
     &__card{
         box-shadow:0 4px 10px rgba(12, 53, 15, 0.2);
@@ -279,23 +278,6 @@ a:hover{
 }
 
 @media screen and (max-width: 600px) {
-    .header{
-        padding: 0;
-        &--title{
-            font-size: 13px;
-            line-height: normal;
-        }
-        &__row{
-            margin-top: 0px;
-        }
-        &--text{
-            font-size: 10px;
-            // line-height: 0.3px;
-        }
-        &--link{
-        }
-       
-    }
     .story{
         text-align: start;
         &--title{
@@ -333,69 +315,59 @@ a:hover{
 
     
 }
-.wrapper {
-    .banner {
-         .nav {
-            display: flex;
-            justify-content: center;
-            padding: 2rem .1rem;
-            &__logo {
-               display: none;
-           }
-           &__menu{
-            &--link{
-                display: inline-block;
-                padding: 0 2rem;
-                font-weight: bold;
-                color: #fff;
-            }
-           }
-        }
-        
-    }
-}
-
 
 
 
 
 /* screen size below 768px mobile */
 @media screen and (max-width: 768px) {
-    .header{
-        &--title{
-            font-size: 22px;
-            line-height: normal;
-        }
-        &__row{
-            margin-top: 80px;
-        }
-        &--link{
-            margin-top: 10px;
-        }
-    }
     .banner {
-        // background-color: red;
-       .nav{
-        .nav__logo{
-            display: block;
-            margin-bottom: 1rem;
+        .nav {
+            &__logo {
+               display: block;
+               margin-bottom: .5rem;
+           }
+           &__menu{
+            text-align: center;
+            &--link{
+                margin-bottom: .1rem;
+                padding: 0;
+                padding-right: 1rem;
+                font-size: .5rem;
+            }
+            &--link:nth-child(3) {
+                display: none;
+            }
+           }
         }
-       }
+        &__text{
+            &--title{
+                font-size: 1rem;
+            }
+            &--sub{
+                margin-top: 2rem;
+                font-size: .7rem;
+            }
+            &--btn{
+                background-color: #338212;
+                padding:1rem;
+                border-radius: 10px;
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: .4rem;
+                // top: 60rem;
+                width: 280px;
+                // transform: translate(-30%);
+                
+                
+            }
+        }    
     }
 
-    .banner .nav__menu {
-        text-align: center;
-    }
 
-    .banner .nav__menu .nav__menu--link {
-        margin-bottom: .5rem;
-        padding: 0;
-        padding-right: 1rem;
-    }
+   
 
-    .banner .nav__menu .nav__menu--link:nth-child(3) {
-        display: none;
-    }
+    
     .teams{
         &--title{
             font-weight: 500;

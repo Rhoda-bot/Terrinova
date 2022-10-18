@@ -7,20 +7,19 @@ ul>li:before {
     width:1.5em;
     padding-right:0.5em;
     font-weight:bold;
-    // text-align:right;
-    // content:counter(item) ".";
+    color: #338212;
   }
 .accordion-item{
-    // background-color: transparent !important;
     outline: transparent !important;
     border-radius: 5px !important;
     border: none !important;
     color: #000;
+    background-color: #f9fcf8;
+    
 }
 
 .accordion-header, .accordion-button{
     background: transparent !important;
-    // outline: none !important;
 }
 
 .accordion-button:focus{
@@ -56,6 +55,8 @@ a:hover{
     font-family: 'Inter', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 2s all ease-in-out;
+    animation: forwards;
     align-items: center;
 
     &--logo{
@@ -71,7 +72,6 @@ a:hover{
         font-weight: 700;
         font-size: 50px;
         line-height: 62.93px;
-
     }
     &--text{
         font-weight: 400;
@@ -82,9 +82,20 @@ a:hover{
         @include Btn;
     }
     &--btn:hover{
+        @include BtnHover;
+    }
+    &--link{
+        @include Btn;
+        padding: 17px;
+    }
+    &--link:hover{
        @include BtnHover;
     }
+    
 }
+   
+    
+
 .story{
     text-align: start; 
     font-family: 'Inter', sans-serif;
@@ -180,10 +191,12 @@ a:hover{
         }
     }
     &__card:hover{
-        box-sizing: 0 2px 12px rgb(51 51 51 / 20%);
+        box-shadow: 0 2px 12px rgb(51 51 51 / 20%);
         transition: 3s ease-in-out;
         cursor: pointer;
         background-color: #dff7ec;
+        transform: scale(.95);
+        transform: rotateX(-360deg);
     }
 }
 .partners{
@@ -197,7 +210,7 @@ a:hover{
 }
 .faqs{ 
     font-family: 'Inter', sans-serif; 
-background-color:#f0f7f1;
+    background-color:#f0f7f1;
 &--title{
     font-weight: 500;
     color: #0C350F;
@@ -215,6 +228,11 @@ background-color:#f0f7f1;
         font-size: 18px;
         font-weight: 300;
         color: #0C350F;
+    }
+    &__img:hover{
+        transition: 3s ease-in-out;
+        cursor: pointer;
+        transform: scale(.95);
     }
 }
 .teams{
@@ -237,11 +255,13 @@ background-color:#f0f7f1;
         }
     }
     &__card:hover{
-        box-sizing: 0 2px 10px rgb(51 51 51 / 20%);
+        box-shadow: 0 2px 10px rgb(51 51 51 / 20%);
         transition: 3s ease-in-out;
         cursor: pointer;
         filter: grayscale(40%);
         background-color: #f0f7f3;
+        transform: scale(.98);
+        // transform-style: preserve-3d;
     }
  &--img{
     background-image: rgba(12, 53, 15, 0.3);
@@ -291,6 +311,16 @@ background-color:#f0f7f1;
         &__img2{
             transform: rotate(0deg);
         }
+        .faqs{
+            &--title{
+                font-size: 30px;
+            }
+        }
+        .partners{
+            &--title{
+                font-size: 30px;
+            }
+        }
     }
 
     
@@ -325,6 +355,13 @@ background-color:#f0f7f1;
 
 /* screen size below 768px mobile */
 @media screen and (max-width: 768px) {
+    .header{
+        height: 100vh;
+        &--title{
+            font-size: 30px;
+            line-height: normal;
+        }
+    }
     .banner {
         // background-color: red;
        .nav{
@@ -352,12 +389,8 @@ background-color:#f0f7f1;
         &--title{
             font-weight: 500;
             font-size: 30px;
-            // line-height: 56px;
-            // color: #000;
         }
         &__card{
-            // box-shadow: 0px 4px 10px
-            // rgba(12, 53, 15, 0.15);
             &--title{
                 font-size: 17px;
                 font-weight: 400;
@@ -368,6 +401,14 @@ background-color:#f0f7f1;
             &--span{
                 font-weight: 600;
             }
+        }
+    }
+}
+
+@media screen and (max-width:998px) {
+    .teams{
+        &--img{
+            height: 100vh;
         }
     }
 }

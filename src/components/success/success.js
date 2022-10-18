@@ -5,7 +5,7 @@ const Success = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-5">
-                        <img src="/image/sdg.png" alt="" className="img-fluid p-3"/> 
+                        <img src="/image/sdg.png" alt="" className="img-fluid success__img p-3"/> 
                     </div>
                     <div className="col-md-1"></div>
                     <div className="col-md-6 text-start py-5 px-3">

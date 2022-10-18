@@ -4,7 +4,7 @@ const Solutions = () => {
         <div className="solution py-5">
             <div className="container py-5">
                 <div className="row align-items-center">
-                    <div className="col-md-4 text-start text-md-start">
+                    <div className="col-md-4  text-lg-start">
                         <h4 className="solution--title pb-3 pb-lg-2"> OUR SOLUTION</h4>
                             <div className="solution--subtitle pb-5">
                             We Buy From Cooperatives, & Sell To Wholesalers & Industries

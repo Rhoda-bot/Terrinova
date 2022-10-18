@@ -8,7 +8,7 @@ const Faqs = () => {
                     <div className="col-md-8 p-3">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                       <div className="p-3 text-start">
-                        <div class="accordion-item">
+                        <div class="accordion-item ">
                           <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             <b>What is Terrinova?</b>

@@ -58,7 +58,7 @@ a:hover{
     transition: 2s all ease-in-out;
     animation: forwards;
     &__row{
-        margin: 100px;
+        margin: 120px;
         align-items: center;
         justify-content: center;
     }
@@ -280,16 +280,19 @@ a:hover{
 
 @media screen and (max-width: 600px) {
     .header{
+        padding: 0;
         &--title{
-            font-size: 21px;
+            font-size: 13px;
             line-height: normal;
+        }
+        &__row{
+            margin-top: 0px;
         }
         &--text{
-            font-size: 15px;
-            line-height: normal;
+            font-size: 10px;
+            // line-height: 0.3px;
         }
         &--link{
-            margin-top: 0;
         }
        
     }
@@ -310,6 +313,11 @@ a:hover{
         }
         &__img2{
             transform: rotate(0deg);
+        }
+        .opportune{
+            &--title{
+                font-size: 34px;
+            }
         }
         .faqs{
             &--title{
@@ -355,8 +363,14 @@ a:hover{
 @media screen and (max-width: 768px) {
     .header{
         &--title{
-            font-size: 30px;
+            font-size: 22px;
             line-height: normal;
+        }
+        &__row{
+            margin-top: 80px;
+        }
+        &--link{
+            margin-top: 10px;
         }
     }
     .banner {

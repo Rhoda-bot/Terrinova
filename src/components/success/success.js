@@ -21,7 +21,7 @@ const Success = () => {
                     <li>Decent Work and Economic Growth.</li>
                     <li>Industry, Innovation and Infrastructu</li>
                     </p>
-                    <button className="header--btn mt-4">Partner with Us</button>
+                    <button className="partners--btn mt-4">Partner with Us</button>
 
                     </div>
                 </div>

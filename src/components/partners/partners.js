@@ -13,7 +13,7 @@ const Partners = () =>{
                         </div>  
                 </div>
                 <div className="row mx-auto justify-content-center mt-3 pt-4">
-                <button className="header--btn">Partner with Us</button>
+                <button className="partners--btn">Partner with Us</button>
                 </div>
             </div>
         </div>

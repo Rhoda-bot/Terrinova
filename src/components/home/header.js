@@ -12,7 +12,7 @@ const Header = () => {
                                 Profitability & Philanthropy Do Not
                                 <br/> Have To Be Parallel Lines.
                                     </h1>
-                                         <p className="header--text">
+                                         <p className="header--text mt-2">
                                             Terrinova has figured out a way
                                                 to create enterprise from solving one of <br/> Africa’s most pressing food problems. 
                                                 </p>

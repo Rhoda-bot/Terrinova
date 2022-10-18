@@ -57,8 +57,8 @@ a:hover{
     background-size: cover;
     transition: 2s all ease-in-out;
     animation: forwards;
-    // width: 100%;
     &__row{
+        margin: 50px;
         align-items: center;
         justify-content: center;
     }
@@ -91,7 +91,7 @@ a:hover{
     &--link{
         @include Btn;
         padding: 17px;
-        margin-top: 50px;
+        margin-top: 55px;
     }
     &--link:hover{
        @include BtnHover;
@@ -280,14 +280,11 @@ a:hover{
 
 @media screen and (max-width: 600px) {
     .header{
-        height: 100vh;
         &--title{
-            font-size: 24px;
-            font-weight: 500;
+            font-size: 21px;
             line-height: normal;
         }
         &--text{
-            font-weight: 400;
             font-size: 15px;
             line-height: normal;
         }
@@ -329,9 +326,7 @@ a:hover{
     
 }
 .wrapper {
-    // background-color: transparent;
     .banner {
-        // height: 100vh;
          .nav {
             display: flex;
             justify-content: center;
@@ -359,7 +354,6 @@ a:hover{
 /* screen size below 768px mobile */
 @media screen and (max-width: 768px) {
     .header{
-        height: 100vh;
         &--title{
             font-size: 30px;
             line-height: normal;

@@ -58,7 +58,7 @@ a:hover{
     transition: 2s all ease-in-out;
     animation: forwards;
     &__row{
-        margin: 120px;
+        margin: 130px;
         align-items: center;
         justify-content: center;
     }
@@ -75,7 +75,7 @@ a:hover{
     &--title{
         font-weight: 700;
         font-size: 50px;
-        line-height: 62.93px;
+        line-height: 60px;
     }
     &--text{
         font-weight: 400;
@@ -91,7 +91,7 @@ a:hover{
     &--link{
         @include Btn;
         padding: 17px;
-        margin-top: 55px;
+        margin-top: 45px;
     }
     &--link:hover{
        @include BtnHover;

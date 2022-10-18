@@ -19,32 +19,58 @@ const Faqs = () => {
                           </div>
                         </div>
                       </div>
-      <div className="p-3 text-start">
-      <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        <b>What do we offer</b>
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">We produce nutritionally improved Maize and Cassava flour that's ready for consumption. We also supply bio-fortified grains to farmers and industries like breweries.</div>
-    </div>
-  </div>
-      </div>
-      <div className="p-3">
-      <div class="accordion-item text-start">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            <b>Who are the founders?</b>
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Abdoul Raouf Sayadi Maazou and Espérance Déo Gratias are the co-founders of The Terrinova Group. They are both PAULESI Research fellows, exploring plant breeding at the International Institute of Tropical Agriculture (IITA).
-          </div>
-        </div>
-      </div>
-      </div>
-</div>
+                  <div className="p-3 text-start">
+                  <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <b>What do we offer</b>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We produce nutritionally improved Maize and Cassava flour that's ready for consumption. We also supply bio-fortified grains to farmers and industries like breweries.</div>
+                </div>
+              </div>
+              </div>
+                <div className="p-3">
+                <div class="accordion-item text-start">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <b>Who are the founders?</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Abdoul Raouf Sayadi Maazou and Espérance Déo Gratias are the co-founders of The Terrinova Group. They are both PAULESI Research fellows, exploring plant breeding at the International Institute of Tropical Agriculture (IITA).
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div className="p-3">
+                <div class="accordion-item text-start">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <b>What is our motivation?</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Abdoul Raouf Sayadi Maazou and Espérance Déo Gratias are the co-founders of The Terrinova Group. They are both PAULESI Research fellows, exploring plant breeding at the International Institute of Tropical Agriculture (IITA).
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div className="p-3">
+                <div class="accordion-item text-start">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <b>Who are our Partners?</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Abdoul Raouf Sayadi Maazou and Espérance Déo Gratias are the co-founders of The Terrinova Group. They are both PAULESI Research fellows, exploring plant breeding at the International Institute of Tropical Agriculture (IITA).
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
                     </div>
                 </div>
             </div>

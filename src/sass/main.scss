@@ -165,7 +165,7 @@ a:hover{
     &--title{
         font-weight: 500;
         color: #0C350F;
-        font-size: 44px;
+        font-size: 40px;
     }
     &--text{
         font-size: 18px;
@@ -257,7 +257,7 @@ a:hover{
         box-shadow: 0px 4px 10px
         rgba(12, 53, 15, 0.15);
         &--title{
-            font-size: 20px;
+            font-size: 1rem;
             font-weight: 400;
         }
         &--span{
@@ -303,7 +303,7 @@ a:hover{
         }
         .opportune{
             &--title{
-                font-size: 34px;
+                font-size: 1.1rem;
             }
         }
         .faqs{
@@ -313,7 +313,7 @@ a:hover{
         }
         .partners{
             &--title{
-                font-size: 30px;
+                font-size: 1.1rem;
             }
         }
     }
@@ -368,11 +368,16 @@ a:hover{
             }
         }    
     }
-
-
-   
-
-    
+.opportune{
+    &--title{
+        font-size: 1.5rem;
+    }
+}
+    .success{
+        &--title{
+            font-size: 1.5rem;
+        }
+    }
     .teams{
         &--title{
             font-weight: 500;
@@ -380,15 +385,28 @@ a:hover{
         }
         &__card{
             &--title{
-                font-size: 17px;
+                font-size: .8rem;
                 font-weight: 400;
             }
+            &--subtitle{
+                font-size: .8rem;
+            }
             &--text{
-                font-size: 10px;
+                font-size: .5rem;
             }
             &--span{
                 font-weight: 600;
             }
+        }
+    }
+    .faqs{
+        &--title{
+            font-size: 1.5rem;
+        }
+    }
+    .partners{
+        &--title{
+            font-size: 1.5rem;
         }
     }
 }

@@ -25,11 +25,11 @@ const Story = () => {
                             <div className="row justify-content-evenly">
                                 <div className="col-md-5 m-2">
                                     <div className="card border-0">
-                                        <img src="/image/abdoul.png" alt="images" className="img-fluid story__img mx-3"  />
+                                        <img src="/image/abdoul.png" alt="images" className="col-sm-none img-fluid story__img mx-3"  />
                                     </div>
                                 </div>
                                 <div className="col-md-5 card border-0 m-2">
-                                    <img src="/image/espérance.png" alt="images" className="img-fluid story__img2 mx-3"  />
+                                    <img src="/image/espérance.png" alt="images" className=" col-sm-none img-fluid story__img2 mx-3"  />
                                 </div>
                             </div>
                              <p className="text-center story--subtitle">Abdoul &  Espérance</p>

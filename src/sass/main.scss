@@ -90,6 +90,7 @@ a:hover{
     &--link{
         @include Btn;
         padding: 17px;
+        margin-top: 50px;
     }
     &--link:hover{
        @include BtnHover;
@@ -289,12 +290,7 @@ a:hover{
             font-size: 15px;
             line-height: normal;
         }
-        &--btn{
-            @include Btn;
-        }
-        &--btn:hover{
-           @include BtnHover;
-        }
+       
     }
     .story{
         text-align: start;

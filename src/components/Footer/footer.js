@@ -7,17 +7,17 @@ const Footer = () =>{
                     <h4 className="footer--title text-center pb-3">
                     TERRINOVA is proudly supported by 
                     </h4>
-                    <div className="col-md-3">
-                        <img src="/image/afrib.png" className="img-fluid p-3 m-lg-3" alt="" />
+                    <div className="col-md-3 footer__col">
+                        <img src="/image/afrib.png" className="img-fluid footer__col--img" alt="" />
                     </div>
-                    <div className="col-md-3">
-                        <img src="/image/giz.png" className="img-fluid p-3 m-lg-3" alt="" />
+                    <div className="col-md-3 footer__col">
+                        <img src="/image/giz.png" className="img-fluid footer__col--img" alt="" />
                     </div>
-                    <div className="col-md-3">
-                        <img src="/image/pau.png" className="img-fluid p-3 m-lg-3" alt="" />
+                    <div className="col-md-3 footer__col">
+                        <img src="/image/pau.png" className="img-fluid footer__col--img" alt="" />
                     </div>
-                    <div className="col-md-3">
-                        <img src="/image/elab.png" className="img-fluid p-3 m-lg-3" alt="" />
+                    <div className="col-md-3 footer__col">
+                        <img src="/image/elab.png" className="img-fluid footer__col--img" alt="" />
                     </div>
                     <div className="row pt-lg-3 footer__bottom align-items-center justify-content-center">
                         <hr className="footer__bottom mt-5"/>

@@ -11,7 +11,7 @@ const Teams = () =>{
                          <div class="card teams__card border-0 mb-3">
                             <div class="row g-0 align-items-center">
                                 <div class="col-lg-4 col-sm-6">
-                                <img src="/image/abdoul.png" class="teams__card--img img-fluid rounded-start" alt="..."/>
+                                <img src="/image/ab.jpg" class="teams__card--img h-100 img-fluid rounded-start" alt="..."/>
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                 <div class="card-body">
@@ -36,7 +36,7 @@ const Teams = () =>{
                          <div class="card teams__card border-0  mb-3">
                             <div class="row g-0 align-items-center">
                                 <div class="col-lg-4 col-sm-6">
-                                <img src="/image/espérance.png" className="teams__card--img  img-fluid rounded-start rounded-lg-none" alt="..."/>
+                                <img src="/image/esp.jpg" className="teams__card--img h-100 img-fluid rounded-start rounded-lg-none" alt="..."/>
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                 <div class="card-body">

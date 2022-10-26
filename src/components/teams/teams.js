@@ -5,11 +5,13 @@ const Teams = () =>{
             <div className="container py-5">
                 <h3 className="teams--title pb-5">Our Team</h3>
                     <div className="row text-start ">
-                        <div className="col-md-6">
+                        <div className="col-md-6  " style={{
+                            maxwidth: '540px'
+                        }}>
                          <div class="card teams__card border-0 mb-3">
-                            <div class="row g-0">
+                            <div class="row g-0 align-items-center">
                                 <div class="col-lg-4 col-sm-6">
-                                <img src="/image/abdoul.png" class="img-fluid h-100 rounded-start" alt="..."/>
+                                <img src="/image/abdoul.png" class="teams__card--img img-fluid rounded-start" alt="..."/>
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                 <div class="card-body">
@@ -28,11 +30,13 @@ const Teams = () =>{
                             </div>
                             </div>
                         </div>
-                        <div className="col-md-6 mb-2">
+                        <div className="col-md-6 mb-2" style={{
+                            maxwidth: '540px'
+                        }}>
                          <div class="card teams__card border-0  mb-3">
-                            <div class="row g-0">
+                            <div class="row g-0 align-items-center">
                                 <div class="col-lg-4 col-sm-6">
-                                <img src="/image/espérance.png" class="img-fluid rounded-start h-100" alt="..."/>
+                                <img src="/image/espérance.png" className="teams__card--img  img-fluid rounded-start rounded-lg-none" alt="..."/>
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                 <div class="card-body">

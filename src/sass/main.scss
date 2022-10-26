@@ -211,6 +211,13 @@ a:hover{
         line-height: 56px;
         color: #0C350F;
     }
+    &__col{
+        width: 50%;
+        &--img{
+            width: 40%;
+        }
+    }
+
     &--btn{
         @include Btn;
     }
@@ -280,6 +287,19 @@ a:hover{
     font-family: 'Inter', sans-serif;
     background-color: #0C350F;
     color: #F5F9F3;
+    &__col{
+        width: 50%;
+        &--img{
+            width: 100%;
+            // height: 3;
+        }
+    }
+    &__col2{
+        width: 30%;
+        &--img{
+            width: 50%;
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -384,12 +404,15 @@ a:hover{
             font-size: 30px;
         }
         &__card{
+            background-color: yellow;
             &--title{
-                font-size: .8rem;
+                font-size: .5rem;
                 font-weight: 400;
+                color: purple;
             }
             &--subtitle{
-                font-size: .8rem;
+                font-size: .67rem;
+                color: red;
             }
             &--text{
                 font-size: .5rem;
@@ -413,8 +436,17 @@ a:hover{
 
 @media screen and (max-width:998px) {
     .teams{
-        &--img{
-            height: 100vh;
+        &__card{
+            width: 100%;
+            background-color: transparent;
+            padding: 0;
+            border-radius: none;
+            padding: 0;
+            // height: 40vh;
+            align-items: center;
+            &--img{
+                width: 100%;
+            }
         }
     }
 }

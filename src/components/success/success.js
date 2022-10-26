@@ -21,7 +21,9 @@ const Success = () => {
                     <li>Decent Work and Economic Growth.</li>
                     <li>Industry, Innovation and Infrastructu</li>
                     </p>
-                    <button className="partners--btn mt-4">Partner with Us</button>
+                    <button className="partners--btn mt-4">
+                        <a  href='https://drive.google.com/file/d/1RmQeZb6VETZQPcU6bjapUEz5vmJMhTft/view?usp=drivesdk' target="_blank" rel="noreferrer">Partner with Us</a>
+                    </button>
 
                     </div>
                 </div>

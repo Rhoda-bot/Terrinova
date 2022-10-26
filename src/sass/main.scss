@@ -137,6 +137,7 @@ a:hover{
     }
     &--btn{
         @include Btn;
+        padding: 2;
     }
     &--btn:hover{
         @include BtnHover;
@@ -211,10 +212,23 @@ a:hover{
         line-height: 56px;
         color: #0C350F;
     }
+    &__col:nth-child(1){
+        width: 43%;
+        text-align: start;
+    }
+    &__col:nth-child(2){
+        text-align: end;
+    }
     &__col{
-        width: 50%;
+        width: 48%;
+        padding: 0.8rem 5rem;
         &--img{
             width: 40%;
+        }
+        &--link{
+            @include Btn;
+            text-align: center;
+            padding: 15px;
         }
     }
 

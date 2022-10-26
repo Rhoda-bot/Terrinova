@@ -34,7 +34,7 @@ const Header = () => {
                             Terrinova has figured out a way to create enterprise from solving one of <br/> Africa’s most pressing food problems. 
                         </p>
                      <div className='pt-5'>
-                     <a href='/image/sample.pdf' download="cta" target="_blank" className="banner__text--btn">Partner with Us</a>
+                     <a href='https://drive.google.com/file/d/1RmQeZb6VETZQPcU6bjapUEz5vmJMhTft/view?usp=drivesdk' target="_blank" className="banner__text--btn" rel="noreferrer">Partner with Us</a>
                      </div>
                     </div>
                 </div>

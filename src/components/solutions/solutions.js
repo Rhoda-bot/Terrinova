@@ -9,7 +9,9 @@ const Solutions = () => {
                             <div className="solution--subtitle pb-5">
                             We Buy From Cooperatives, & Sell To Wholesalers & Industries
                             </div>
-                                <button className="solution--btn">Join our Mission</button>
+                                <button className="solution--btn">
+                                    <a href='https://drive.google.com/file/d/1RmQeZb6VETZQPcU6bjapUEz5vmJMhTft/view?usp=drivesdk' target="_blank" rel="noreferrer">Join our Mission</a>
+                                </button>
                     </div>
                         <div className="col-md-8">
                             <div className="row">
